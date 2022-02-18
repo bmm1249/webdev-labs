@@ -1,0 +1,78 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#suggestions{
+    width: 350px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+#suggestions .username_user {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 50px;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+}
+
+.profile_pic {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.sfy {
+    margin-left: 20px;
+}
+
+.suggestion {
+    display: grid;
+    grid-template-columns: 40px auto 70px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+.suggestion p {
+    margin: 0;
+}
+
+.suggestion img {
+    border-radius: 15px;
+}
+
+.suggestion .suggestion-text{
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+.suggestion button{
+    padding:5px 10px;
+    border: 1px;
+    border-color: #999;
+    border-radius: 4px;
+}
+
+.follow{
+    background: transparent;
+}
+
+.unfollow{
+    background: white;
+}
